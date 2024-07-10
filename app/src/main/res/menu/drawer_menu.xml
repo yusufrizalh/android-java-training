@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/drawer_config"
+        android:icon="@drawable/icon_build"
+        android:title="Configuration">
+        <menu>
+            <item
+                android:id="@+id/drawer_capture"
+                android:icon="@drawable/icon_camera"
+                android:title="Capture" />
+            <item
+                android:id="@+id/drawer_gallery"
+                android:icon="@drawable/icon_gallery"
+                android:title="Gallery" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/group_share"
+        android:title="Share">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/drawer_share"
+                    android:icon="@drawable/icon_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/drawer_send"
+                    android:icon="@drawable/icon_send"
+                    android:title="Send" />
+                <item
+                    android:id="@+id/drawer_bookmark"
+                    android:icon="@drawable/icon_bookmark"
+                    android:title="Bookmark" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
